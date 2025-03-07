@@ -37,44 +37,8 @@ Este repositorio contiene una **biblioteca de componentes personalizados** para 
 1. **Compila la solución** para generar `ReproductorMusicaComponentes.dll`.  
 2. En **Visual Studio**, ve a **Referencias** → **Agregar Referencia**.  
 3. Selecciona el archivo **`ReproductorMusicaComponentes.dll`** ubicado en `bin\Debug`.  
-4. ¡Listo! Ahora puedes usar los componentes en tu proyecto.  
+4. ¡Listo! Ahora puedes usar los componentes en tu proyecto.
 
-### 🔹 **2. Ejemplo de Uso en `Form1.cs`**  
-Después de agregar la DLL, puedes utilizar los componentes en tu formulario:
 
-```csharp
-using System;
-using System.Drawing;
-using System.Windows.Forms;
-using ReproductorMusicaComponentes; // Importar la DLL
-
-namespace MusicApp
-{
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-            InitializeComponent();
-
-            // Agregar un botón de reproducción
-            BotonReproducir playButton = new BotonReproducir();
-            playButton.Location = new Point(100, 200);
-            this.Controls.Add(playButton);
-
-            // Agregar una barra de progreso
-            SliderProgreso slider = new SliderProgreso();
-            slider.Location = new Point(50, 250);
-            this.Controls.Add(slider);
-
-            // Agregar el nombre de la canción
-            TextoCancion songName = new TextoCancion();
-            songName.Location = new Point(80, 100);
-            this.Controls.Add(songName);
-        }
-    }
-}
 ## 📷 Vista Previa de los Componentes  
-
-![image](https://github.com/user-attachments/assets/75337eef-9bc8-4551-8010-e6a98d71908e)
-
-
+![imagen](https://github.com/user-attachments/assets/2203c469-acd2-47af-9177-f914f403f497)
