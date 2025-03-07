@@ -73,3 +73,8 @@ namespace MusicApp
         }
     }
 }
+## 📷 Vista Previa de los Componentes  
+
+![image](https://github.com/user-attachments/assets/75337eef-9bc8-4551-8010-e6a98d71908e)
+
+
