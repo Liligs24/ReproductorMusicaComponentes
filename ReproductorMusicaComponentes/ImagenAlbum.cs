@@ -10,13 +10,13 @@ namespace ReproductorMusicaComponentes
         public ImagenAlbum()
         {
             this.Size = new Size(100, 100);
-            this.BackColor = Color.FromArgb(120, 0, 0); // Rojo oscuro
+            this.BackColor = Color.FromArgb(120, 0, 0); 
             this.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            // Ruta relativa correcta a la imagen en la carpeta "images"
-            string imagePath = Path.Combine(Application.StartupPath, "images", "MusicIcon.png");
+            
+            string imagePath = Path.Combine(Application.StartupPath, "images", "");
 
-            // Verificar si la imagen existe antes de asignarla
+
             if (File.Exists(imagePath))
             {
                 this.Image = Image.FromFile(imagePath);

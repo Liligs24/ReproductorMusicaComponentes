@@ -65,6 +65,9 @@
     <Compile Include="ControlProgreso.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="EtiquetaTiempo.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="ImagenAlbum.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -75,17 +78,15 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SliderProgreso.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="TextoCancion.cs">
       <SubType>Component</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="images\MusicIcon.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
